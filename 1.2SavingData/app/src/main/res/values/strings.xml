@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SavingData</string>
+    <string name="edit_message">Edit Message...</string>
+    <string name="button_send">Save and Send</string>
+    <string name="pref_file_key">prefFileKey</string>
+    <string name="get_pref">Display Preferences</string>
+</resources>
