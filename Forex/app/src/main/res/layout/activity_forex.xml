@@ -1,47 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_forex"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_column="2"
-    android:layout_row="4"
+    android:orientation="horizontal"
     tools:context="com.example.android.forex.ForexActivity">
 
-    <!-- From -->
-    <TableRow>
-        <Spinner
-            android:id="@+id/forex_from"
-            android:layout_column="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="@string/title"
+        android:gravity="center"
+        android:textSize="36sp" />
 
-            />
-        <EditText
-            android:id="@+id/text_from"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:digits="@string/from"/>
-    </TableRow>
-    <!-- To -->
-    <TableRow>
-        <Spinner
-            android:id="@+id/forex_to"
-            android:layout_column="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+    <TextView
+        android:text="@string/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"
+        android:id="@+id/textViewAmount"
+        android:textSize="24sp" />
 
-            />
-        <EditText
-            android:id="@+id/text_to"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:digits="@string/to"/>
-    </TableRow>
-    <!-- Info -->
-    <TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_alignTop="@+id/textViewAmount"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/edittextAmount" />
 
-    </TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/result"
+        android:textSize="24sp"
+        android:layout_below="@+id/convert"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerFrom"
+        android:layout_below="@+id/edittextAmount"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
 
-</TableLayout>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerTo"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/convert"
+        android:layout_below="@+id/spinnerTo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+</RelativeLayout>
