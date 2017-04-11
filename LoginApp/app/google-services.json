@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109160959935",
+    "project_id": "loginapp-3c3f1"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109160959935:android:d6ef108c60ff85ec",
+        "android_client_info": {
+          "package_name": "com.login.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109160959935-in6vgn5hulstnglmqgc4pbfec6qat2d4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.login.app",
+            "certificate_hash": "9f83f0cd2697edd06aa70236d4d0c2b0dd3c4a36"
+          }
+        },
+        {
+          "client_id": "109160959935-ku99rhsupspphthps44138i0859hhl4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl3-9YLmT4i5zKoxS1XArw7rtTWhIlY3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

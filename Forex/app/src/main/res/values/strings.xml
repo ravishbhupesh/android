@@ -6,4 +6,7 @@
     <string name="to">To</string>
     <string name="convert">Convert</string>
     <string name="onOffText">&lt;&gt;</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_forex">Forex</string>
+
 </resources>

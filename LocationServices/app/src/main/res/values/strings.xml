@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LocationServices</string>
+    <string name="showLastLocation">Show Last Location</string>
+    <string name="changeLocation">Change Location</string>
+    <string name="recieveLocationUpdates">Recieve Location Updates</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Longitude">Longitude</string>
+</resources>

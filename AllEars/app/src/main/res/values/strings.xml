@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AllEars</string>
+
+    <!-- Common for all Activities -->
+    <string name="stop">Stop</string>
+    <string name="record">Record</string>
+
+    <!-- Main Activity -->
+    <string name="translate">Translate</string>
+
+    <!-- Translate Activity -->
+    <string name="listen">Listen</string>
+
+    <!-- Record Activity -->
+
+
+</resources>
