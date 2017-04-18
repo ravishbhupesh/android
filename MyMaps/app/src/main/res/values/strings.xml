@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyMaps</string>
+
+    <string name="button_maps">Google Maps</string>
+    <string name="button_current_location">Current Location</string>
+
+
+    <string name="title_activity_google_maps">Google Maps</string>
+    <string name="title_activity_current_location">Map</string>
+</resources>
